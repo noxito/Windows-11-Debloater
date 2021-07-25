@@ -7,7 +7,7 @@ like Photoshop Express and Skype.
 
 Q: Why do I should download this instead the version of BlueGuyYT?
 
-A: This script doesn't unninstall Xbox and MSPaint. If you don't like these apps, you can just download BlueGuyYT version.
+A: This script doesn't unninstall Xbox, mspaint, calculator and alarms app. If you don't like these apps, you can just download BlueGuyYT version.
 
 
 
