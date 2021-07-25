@@ -5,6 +5,8 @@ forked from BlueGuyYT/Windows-11-Debloater
 Script/Utility/Application to debloat Windows 11. This removes unnecessary applications,
 like Photoshop Express and Skype.
 
+![Screenshot](screenshot.png)
+
 Q: Why do I should download this instead the version of BlueGuyYT?
 
 A: This script doesn't unninstall Xbox, mspaint, calculator and alarms app. If you don't like these apps, you can just download BlueGuyYT version.
