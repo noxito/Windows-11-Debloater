@@ -10,8 +10,6 @@ $Bloatware = @(
         "Microsoft.BingSports"
         "Microsoft.BingTranslator"
         "Microsoft.BingWeather"
-        "Microsoft.GetHelp"
-        "Microsoft.Getstarted"
         "Microsoft.Messaging"
         "Microsoft.Microsoft3DViewer"
         "Microsoft.MicrosoftSolitaireCollection"
@@ -23,7 +21,6 @@ $Bloatware = @(
         "Microsoft.People"
         "Microsoft.Print3D"
         "Microsoft.SkypeApp"
-        "Microsoft.StorePurchaseApp"
         "Microsoft.Wallet"
         "Microsoft.Whiteboard"
         "Microsoft.windowscommunicationsapps"
@@ -32,17 +29,11 @@ $Bloatware = @(
         "Microsoft.WindowsSoundRecorder"
         "Microsoft.ZuneMusic"
         "Microsoft.ZuneVideo"
-        "Microsoft.Windows.Photos" 
-        "Microsoft.BingWeather"
         "Microsoft.BingWeather"
         "Microsoft.GetHelp" 
-        "Microsoft.GetHelp"
         "Microsoft.Getstarted" 
         "Microsoft.Microsoft3DViewer"
         "Microsoft.MicrosoftOfficeHub"
-        "Microsoft.MicrosoftOfficeHub"
-        "Microsoft.MicrosoftSolitaireCollection"
-        "Microsoft.MicrosoftStickyNotes"
         "Microsoft.MixedReality.Portal"
         "Microsoft.Office.OneNote" 
         "Microsoft.People" 
@@ -59,7 +50,6 @@ $Bloatware = @(
         "Microsoft.ZuneVideo" 
         "SpotifyAB.SpotifyMusic" 
         "Microsoft.BingNews" 
-        "Microsoft.Paint" 
         "Microsoft.Todos" 
 
 
@@ -173,7 +163,6 @@ $Bloatware = @(
 
 
 
-Get-AppxPackage Microsoft.Windows.Photos | Remove-AppxPackage
 Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage
 Get-AppxPackage Microsoft.BingWeather | Remove-AppxPackage
 Get-AppxPackage Microsoft.GetHelp | Remove-AppxPackage
@@ -183,32 +172,20 @@ Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage
 Get-AppxPackage Microsoft.MicrosoftOfficeHub | Remove-AppxPackage
 Get-AppxPackage Microsoft.MicrosoftOfficeHub| Remove-AppxPackage
 Get-AppxPackage Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage
-Get-AppxPackage Microsoft.MicrosoftStickyNotes | Remove-AppxPackage
 Get-AppxPackage Microsoft.MixedReality.Portal | Remove-AppxPackage
-Get-AppxPackage Microsoft.MSPaint | Remove-AppxPackage
 Get-AppxPackage Microsoft.Office.OneNote | Remove-AppxPackage
 Get-AppxPackage Microsoft.People | Remove-AppxPackage
 Get-AppxPackage Microsoft.ScreenSketch | Remove-AppxPackage
 Get-AppxPackage Microsoft.SkypeApp | Remove-AppxPackage
 Get-AppxPackage Microsoft.Wallet | Remove-AppxPackage
-Get-AppxPackage Microsoft.WindowsAlarms | Remove-AppxPackage
-Get-AppxPackage Microsoft.WindowsCalculator | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsCamera | Remove-AppxPackage
 Get-AppxPackage microsoft.windowscommunicationsapps | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsFeedbackHub | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsMaps | Remove-AppxPackage
 Get-AppxPackage Microsoft.WindowsSoundRecorder | Remove-AppxPackage
-Get-AppxPackage Microsoft.Xbox.TCUI | Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxApp | Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxGameOverlay | Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxIdentityProvider | Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxSpeechToTextOverlay | Remove-AppxPackage
 Get-AppxPackage Microsoft.YourPhone | Remove-AppxPackage
 Get-AppxPackage Microsoft.ZuneMusic | Remove-AppxPackage
 Get-AppxPackage Microsoft.ZuneVideo | Remove-AppxPackage
 Get-AppxPackage SpotifyAB.SpotifyMusic | Remove-AppxPackage
 Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage
-Get-AppxPackage Microsoft.GamingApp | Remove-AppxPackage
-Get-AppxPackage Microsoft.Paint | Remove-AppxPackage
 Get-AppxPackage Microsoft.Todos | Remove-AppxPackage
